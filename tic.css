@@ -11,9 +11,23 @@ body
 }
 h1
 {
-    font-size: 350%;
+    font-size: 60px;
     font-family: 'Jua', sans-serif;
     color:navy;
+}
+.top
+{
+    display: flex;
+    flex-direction: row;
+}
+#restart
+{
+    padding: 47px 0px 0px 50px;
+    transition: transform 0.1s;
+}
+#restart:hover
+{
+    transform:scale(1.05);
 }
 
 .sq
@@ -41,8 +55,16 @@ h1
     background-color: #befaf6;
     border-radius: 10px;
     font-size: 128px;
+    transition: transform 0.2s;
 }
+
 .sq h3:hover
 {
     background-color: rgb(255, 180, 240);
+    transform: scale(1.05);
+}
+.rest
+{
+    background-color: aquamarine;
+    color: midnightblue;
 }
