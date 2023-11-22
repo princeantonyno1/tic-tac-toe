@@ -33,10 +33,12 @@ function declareWinner()
     if(step % 2 === 0)
     {
         alert("Player O is the winner!");
+        location.reload();
     }
     else
     {
         alert("Player X is the winner!");
+        location.reload();
     }
 }
 
